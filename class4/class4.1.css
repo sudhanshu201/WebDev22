@@ -1,0 +1,22 @@
+P{
+    font-size: 40px;
+    color: red;
+}
+
+h1{
+    font-size: 50px;
+    color: purple;
+}
+
+h2{
+    font-size: 60px;
+    color: yellowgreen;
+}
+
+
+/*you can use group tag also just by using a comma*/
+
+/* p,h1,h2{
+    font-size: 40px;
+    color: red;
+} */

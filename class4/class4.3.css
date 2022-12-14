@@ -1,0 +1,92 @@
+/* Descendent selector(space) */
+
+.main li{
+    color: lightblue;
+    font-size: 40px;
+}
+
+/* child selector(>) */
+
+div > p{
+    color: rgb(165, 40, 40);
+}
+
+
+/* adjacent sibling selector */
+
+p + h1{
+
+    color: peru;
+}
+
+p + p{
+
+    color: navy;
+}
+
+
+/* general sibling selector(~) */
+
+    .general p ~ p {
+ background-color: yellowgreen;
+}
+
+/* pseduo class */
+.btn{
+    background-color: red;
+    font-size: 14px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 4px;
+}
+
+.btn:hover{
+    background-color: yellow;
+    color: black;
+    border: 2px solid black;
+    cursor: pointer;
+}
+
+.item:link{
+    color: blueviolet;
+}
+.item:visited{
+    color: red;
+}
+
+.item:hover{
+    color: brown;
+}
+
+.item:active{
+    color: black;
+}
+
+/* psudeo-elements */
+
+.task1::before{
+    content: url(/images/right\ click.png);
+}
+
+.task2::after{
+    content: url(/images/right\ click.png);
+}
+
+.task2::first-letter{
+    color: red;
+}
+
+.notes::first-line{
+    color: brown;
+}
+
+.marker1::marker{
+    color: green;
+}
+
+/* Attribute selectors */
+input[type="text"]{
+    color: red;
+    font-size: 20px;
+}
